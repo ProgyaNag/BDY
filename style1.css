@@ -1,0 +1,121 @@
+/* index1.html */
+
+.love
+{
+  position: fixed;
+  left: 460px;
+  top: 40px;
+  text-shadow: 8px black 20px black
+}
+
+hr
+{
+  color: black; 
+  height: 5px; 
+  width: 50%; 
+  background-color: black;
+  position: fixed;
+  top: 150px;
+  left: 410px;
+}
+
+.main
+{
+  position: fixed;
+  height: 600px;
+  width: 1400px;
+  top: 190px;
+  left: 100px;
+  
+}
+.audio
+{
+  height: 54px;
+  width: 300px;
+  position: fixed;
+  top: 250px;
+  left: 650px;
+}
+
+.vdo1
+{
+  position: fixed;
+  top: 350px;
+  left: 300px;
+}
+
+.vdo2
+{
+  position: fixed;
+  top: 350px;
+  left: 910px;
+}
+
+
+@media only screen and (max-width: 400px),(min-height: 844px) 
+{
+    body {
+      background-color: rgb(198, 238, 250);
+    }
+
+    .love
+  {
+    position: fixed;
+    left: 35px;
+    top: 20px;
+    text-shadow: 8px black 20px black
+    height: 5px;
+    width: 350px;
+  }
+
+
+  /* hr
+  {
+    color: black; 
+    height: 3px; 
+    width: 50%; 
+    background-color: black;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+  } */
+
+  .main
+  {
+    position: fixed;
+    height: 520px;
+    width: 350px;
+    top: 120px;
+    left: 8px;
+    
+  }
+  .audio
+  {
+    height: 20px;
+    width: 50px;
+    position: fixed;
+    top: 130px;
+    left: 50px;
+  }
+
+  .vdo1
+  {
+    position: fixed;
+    top: 200px;
+    left: 75px;
+    height: 50px;
+    width: 100px;
+  }
+
+  video
+  {
+      height: 200px;
+      width: 250px;
+  }
+  .vdo2
+  {
+    position: fixed;
+    top: 450px;
+    left: 75px;
+  }
+}

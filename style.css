@@ -1,0 +1,144 @@
+
+body
+{
+    background-color: rgb(242, 168, 185);
+}
+
+html,body{
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.first
+{
+    
+    
+    height: 500px;
+}
+
+.second
+{
+    
+    height: 100%;
+}
+
+.fourth3
+{
+    position:fixed;
+    top: 610px;
+    left: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 8px 50px 0 rgba(0,0,0,0.2), 0 6px 50px 0 rgba(0,0,0,0.19);
+}
+
+.fourth1
+{
+    position: relative;
+    left: 200px;
+}
+
+.fourth2
+{
+    position: fixed;
+    left: 750px;
+    top: 570px;
+}
+
+.btn
+{
+    font-size: 35px;
+    /* border: 2px solid black; */
+    color: black;
+    border-radius: 20px;
+    
+}
+
+p
+{
+    font-size: 20PX;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    
+}
+
+h2
+{
+    font-weight: bolder;
+    
+}
+
+
+@media only screen and (max-width: 400px),(min-height: 844px) 
+{
+    body {
+      background-color: lightblue;
+    }
+    .first
+    {
+        height: 200px;
+    }
+
+    .third
+    {
+        height: 500px;
+    }
+    
+    .fourth1
+    {
+        position: relative;
+        top: 50px;
+        left: 80px;
+        
+    }
+    .hey
+    {
+        height: 150px;
+        width: 250px;
+    }
+    .fourth2
+    {
+        position: relative;
+        left: 5px;
+        top: 220px;
+        transform: rotate(90deg);
+    } 
+    .hand
+    {
+        height: 80px;
+        width: 100px;
+    }
+
+    .fourth3
+    {
+        position:relative;
+        top: 110px;
+        left: 140px;
+        border-radius: 20px;
+        box-shadow: 0 8px 50px 0 rgba(0,0,0,0.2), 0 6px 50px 0 rgba(0,0,0,0.19);
+        height: 50px;
+        width: 130px;
+    }
+
+.btn
+{
+    font-size: 20px;
+    /* border: 2px solid black; */
+    color: black;
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+    background-color: yellow;
+}
+
+.btn:hover
+{
+    background-color: red;
+}
+  }
+
+
+
+
+  
+  
